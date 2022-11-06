@@ -17,7 +17,6 @@ export default {
   methods: {
     myFunctionClick: function () {
       this.$refs.myId.innerText = "Hello Bro";
-      // console.log(this.$refs.myId)
     },
     passDataFunction() {
       console.log("this is test Emit Function");
